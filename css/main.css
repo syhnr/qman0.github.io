@@ -2,7 +2,7 @@ body {
 	background-color: #101010;
 	text-align: center;
 	color: white;
-    margin: 0.9em;
+    margin: 5em;
 }
 
 a:-webkit-any-link {
@@ -15,4 +15,5 @@ a:-webkit-any-link {
     padding: 5px 5px 5px 5px;
     font-size: 30;
     border: 2px solid;
+	border-radius: 3px;
 }
