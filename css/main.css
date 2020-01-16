@@ -31,6 +31,14 @@ table {
     border-bottom-right-radius: 20px;
 }
 
+.admin {
+	color: #6666ff;
+}
+
+.mod {
+	color: yellow;
+}
+
 .link {
 	margin: 5px 5px 5px 5px;
     padding: 8px 8px 8px 8px;
