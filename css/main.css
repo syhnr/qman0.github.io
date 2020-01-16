@@ -31,6 +31,10 @@ table {
     border-bottom-right-radius: 20px;
 }
 
+tr.border_bottom td {
+	border-bottom: 1pt solid white;
+}
+
 .admin {
 	color: #6666ff;
 }
