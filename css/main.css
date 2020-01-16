@@ -21,9 +21,6 @@ td {
 th {
 	border-bottom: 2px solid lightblue;
 	padding: 5px;
-}
-
-th {
 	cursor: pointer;
 }
 
