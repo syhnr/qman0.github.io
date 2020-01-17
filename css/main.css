@@ -40,6 +40,8 @@ ul {
 
 li {
 	display: block;
+	text-align: left;
+	margin: 15px;
 }
 
 tr.border_bottom td {
