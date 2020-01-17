@@ -34,6 +34,10 @@ table {
     border-bottom-right-radius: 20px;
 }
 
+li {
+	display: inline-table;
+}
+
 tr.border_bottom td {
 	border-bottom: 1pt solid white;
 }
