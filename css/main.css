@@ -34,10 +34,6 @@ table {
     border-bottom-right-radius: 20px;
 }
 
-ul {
-	display: inline-table;
-}
-
 li {
 	display: block;
 	text-align: left;
