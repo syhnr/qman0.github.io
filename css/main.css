@@ -38,6 +38,7 @@ li {
 	display: block;
 	text-align: left;
 	margin: 15px;
+	font-size: 14;
 }
 
 tr.border_bottom td {
@@ -65,6 +66,11 @@ tr.border_bottom td {
     border: 2px solid;
 	border-radius: 3px;
 	font-weight: bold;
+}
+
+.rules_span {
+	font-weight: bold;
+	font-size: 25;
 }
 
 @font-face {
