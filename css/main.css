@@ -75,7 +75,10 @@ tr.border_bottom td {
 
 .header {
 	width: 100%;
-	background-color: white;
+	position: absolute;
+	background-color: black;
+	top: 0;
+    left: 0;
 }
 
 @font-face {
