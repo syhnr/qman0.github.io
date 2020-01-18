@@ -73,6 +73,11 @@ tr.border_bottom td {
 	font-size: 25;
 }
 
+.header {
+	width: 100%;
+	background-color: white;
+}
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
