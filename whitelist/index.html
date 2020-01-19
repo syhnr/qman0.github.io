@@ -157,19 +157,6 @@
                 arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
             });
 
-            // EXTRACT VALUE FOR TABLE HEADER.
-            var col = [];
-            for (var i = 0; i < arrItems.length; i++) {
-                for (var key in arrItems[i]) {
-                    if (col.indexOf(key) === -1) {
-                        col.push(key);
-                    }
-                }
-            }
-
-            // CREATE DYNAMIC TABLE.
-            var table = document.createElement("table");
-
             // ADD JSON DATA TO THE TABLE AS ROWS.
             for (var i = 0; i < arrItems.length; i++) {
 
