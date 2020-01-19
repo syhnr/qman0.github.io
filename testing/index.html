@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Testing</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../css/main.css"/>
+		<script type="text/javascript" src="../js/sortabletable.js"></script>
+	</head>
+    <body onload="main()">
+            <div id="page">
+                <div id="docs-body">
+                <div id="sidebar"> 
+                    <ul>
+                        <li id="category"> Doc about dog xd
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#first">About this not bad dog!</a>
+                            </li>
+                            <li>
+                                <a href="#madeby">Made By</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            
+                    <div id="viewer">
+                        <noscript>
+                            <p> Your Browser is not support a <strong>Javascript</strong>!</p>
+                        </noscript>
+                    </div>
+            </div>
+        </div>
+    </body>
+	
+	<script> 
+                json = 
+                    [{
+                        "home":"<h1> This is Bad Docs </h1><h4>(Dog is not bad btw)</h4><img src='https://i.imgur.com/TXtxhbol.jpg' alt='Dog is not loaded :('>",
+                        "first":"<h2>Yeah this is dog </h2> <p> And its not mine</p>",
+                        "madeby":"<h3> made by yhn </h3> <img src='https://i.imgur.com/87hwoyg.jpg' alt='Non-loaded dog :('> <p> this is not home page dog</p>"
+                    }];
+
+            function main() {
+
+                if(document.location.href.includes("#")) {
+                    var anchor = document.location.href.split('#');
+                        document.getElementById('viewer').innerHTML = json[0][`${anchor[1]}`];
+                } else {
+                    window.location.href = "#home";
+                }
+            }
+
+            if ("onhashchange" in window)
+                window.onhashchange = function () {
+                    var anchor = document.location.href.split('#');
+                        document.getElementById('viewer').innerHTML = json[0][`${anchor[1]}`];
+            }
+    </script>
+	
+</html>
