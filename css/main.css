@@ -73,9 +73,18 @@ tr.border_bottom td {
 	font-size: 25;
 }
 
-.header {
+.header-old {
 	width: 100%;
 	position: absolute;
+	position: absolute;
+	background-color: black;
+	top: 0;
+    left: 0;
+}
+
+.header-old {
+	width: 100%;
+	position: fixed;
 	background-color: black;
 	top: 0;
     left: 0;
