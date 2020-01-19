@@ -175,7 +175,7 @@
             var tr = table.insertRow(-1);                   // TABLE ROW.
 
             for (var i = 0; i < col.length; i++) {
-                var th = document.createElement("th").onclick = "sortTable(0)";      // TABLE HEADER.
+                var th = document.createElement("th").onclick = function() { sortTable(3); };;      // TABLE HEADER.
                 th.innerHTML = col[i];
                 tr.appendChild(th);
             }
