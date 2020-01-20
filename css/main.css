@@ -88,6 +88,7 @@ tr.border_bottom td {
 	background-color: black;
 	top: 0;
     left: 0;
+	height: 40px;
 }
 
 .header-links {
