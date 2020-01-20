@@ -92,13 +92,15 @@ tr.border_bottom td {
 
 .header-links {
 	padding: 10px;
-	transition: 1s;
+	transition: 0.2s;
+	font-size: 14px;
 	vertical-align: middle;
 	display: inline-block;
 }
 
 .header-links:hover {
 	border-bottom: 2px solid;
+	font-size: 15px;
 }
 
 @font-face {
