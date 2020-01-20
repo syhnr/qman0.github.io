@@ -88,12 +88,17 @@ tr.border_bottom td {
 	background-color: black;
 	top: 0;
     left: 0;
+	transition: 1s;
 }
 
 .header-links {
 	padding: 10px;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+.header-links:hover {
+	border: 2px solid;
 }
 
 @font-face {
