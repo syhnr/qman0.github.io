@@ -1,23 +1,27 @@
 <html>
 	<head>
-		<title>Testing</title>
+		<title id="#title">Testing</title>
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="../css/main.css"/>
+		<script type="text/javascript" src="../json/strings.js"></script>
 		<script type="text/javascript" src="../js/sortabletable.js"></script>
 		<script type="text/javascript" src="../js/dynamicpage.js"></script>
 	</head>
     <body onload="main()">
 		<div class="header">
-			<a class="header-links" href="#rules">Правила</a>
-			<a class="header-links" href="#commands">Команды</a>
-			<a class="header-links" target="_blank" href="http://213.32.7.18:8123/">Динамическая карта</a>
-			<a class="header-links" href="#whitelist">Список игроков</a>
-			<a class="header-links" href="#banned">Заблокированные игроки</a>
+			<a class="header-links" href="#/rules">Правила</a>
+			<a class="header-links" href="http://213.32.7.18:8123/" target="_blank">Динамическая карта</a>
+			<a class="header-links" href="#/whitelist">Список игроков</a>
+			<a class="header-links" href="#/banned">Заблокированные игроки</a>
+			<a class="header-links" id="commandtab">Команды</a>
+			<div id="commandlist"></div>
+			<script src="../js/commandlist.js"></script>
 		</div>
-            
+            <!-- Also i made a page changing transition but i deleted this because its looks wierd	-->
 		<div id="viewer">
 			<noscript>
-				<p> Ваш браузер не поддерживает <strong>JavaScript</strong>!</p>
+				<p> Your Browser is not support a <strong>Javascript</strong>!</p>
 			</noscript>
 		</div>
 	</body>
