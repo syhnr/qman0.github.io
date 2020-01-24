@@ -34,12 +34,13 @@ th {
 
 table {
 	overflow: hidden;
+	width: 85%;
 	border: 2px solid;
 	border-spacing: 0;
 	margin-left: auto;
 	margin-right: auto;
 	border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 li {
