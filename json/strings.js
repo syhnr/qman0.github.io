@@ -261,7 +261,7 @@ json = [{
 			<td>Никогда</td> \
 		</tr> \
 	</table>",
-    "commandnav":"<a class='header-links' href='#/commands/authme'>AuthMe</a><a class='header-links' href='#/commands/doggo2'>doggo2</a>",
+    "commandnav":"<a class='header-links' href='#/commands/authme'>AuthMe</a><a class='header-links' href='#/commands/qmancommands'>QMan Commands</a>",
     "authme":"<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Команда</th> \
@@ -322,7 +322,22 @@ json = [{
 		<tr class='border_bottom'> \
 			<td>/email setpassword</td> \
 			<td>Установка нового пароля после восстановления</td> \
-		</tr>",
+		</tr> \
+		</table>",
+    "qmancommands":"<table id='table'> \
+		<tr class='border_bottom'> \
+			<th onclick='sortTable(0)'>Команда</th> \
+			<th onclick='sortTable(1)'>Краткое описание</th> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/rules</td> \
+			<td>Выводит список <a href='#/rules'>правил</a> сервера</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/supporters</td> \
+			<td>Благодарности людям</td> \
+		</tr> \
+		</table>",
     "doggo1":"<img src='https://i.redd.it/fs6z3gbyde241.jpg'></a>",
     "doggo2":"<img src='https://pbs.twimg.com/profile_images/958728371311177733/Q4R-9Z_4.jpg'>"
 }]
