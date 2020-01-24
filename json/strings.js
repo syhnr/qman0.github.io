@@ -261,8 +261,8 @@ json = [{
 			<td>Никогда</td> \
 		</tr> \
 	</table>",
-    "commandnav":"<a class='header-links' href='#/commands/authme'>AuthMe</a><a class='header-links' href='#/commands/qmancommands'>QMan Commands</a>",
-    "authme":"<table id='table'> \
+    "commandnav":"<a class='header-links' href='#/commands/AuthMe'>AuthMe</a><a class='header-links' href='#/commands/QMan_Commands'>QMan Commands</a>",
+    "AuthMe":"<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Команда</th> \
 			<th onclick='sortTable(1)'>Краткое описание</th> \
@@ -324,7 +324,7 @@ json = [{
 			<td>Установка нового пароля после восстановления</td> \
 		</tr> \
 		</table>",
-    "qmancommands":"<table id='table'> \
+    "QMan_Commands":"<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Команда</th> \
 			<th onclick='sortTable(1)'>Краткое описание</th> \
