@@ -60,7 +60,8 @@ json = [{
 		<li>[5.3] Запрещено убивать или уводить деревенских жителей, находящихся на территории чужих построек.</li> \
 		<li>[5.4] Запрещено разводить жителей без уведомления владельца.</li> \
 	</ul>",
-    "whitelist":"<h1>Список всех игроков в текущем белом списке</h1> \
+    
+	"whitelist":"<h1>Список всех игроков в текущем белом списке</h1> \
 	<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Роль</th> \
@@ -188,7 +189,8 @@ json = [{
 			<td>08.01.2020</td> \
 		</tr> \
 	</table>",
-    "banned":"<h1>Список всех заблокированных игроков</h1> \
+    
+	"banned":"<h1>Список всех заблокированных игроков</h1> \
 	<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Игрок</th> \
@@ -261,81 +263,154 @@ json = [{
 			<td>Никогда</td> \
 		</tr> \
 	</table>",
-    "commandnav":"<a class='header-links' href='#/commands/AuthMe'>AuthMe</a><a class='header-links' href='#/commands/QMan_Commands'>QMan Commands</a>",
-    "AuthMe":"<table id='table'> \
+    
+	"commandnav":"<a class='header-links' href='#/commands/AuthMe'>AuthMe</a><a class='header-links' href='#/commands/Essentials'>Essentials</a><a class='header-links' href='#/commands/LWC'>LWC</a><a class='header-links' href='#/commands/QMan_Commands'>QMan Commands</a>",
+    
+	"AuthMe":"<h1>AuthMe</h1> \
+		<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Команда</th> \
-			<th onclick='sortTable(1)'>Краткое описание</th> \
+			<th id='unsortable'>Краткое описание</th> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/totp code [код]</td> \
-			<td>Ввод кода для авторизации с использованием системы двухфакторной аутентификации</td> \
+			<td>Ввод кода для авторизации с использованием системы двухфакторной аутентификации.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/totp add</td> \
-			<td>Включение двухфакторной аутентификации</td> \
+			<td>Включение двухфакторной аутентификации.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/totp confirm [код]</td> \
-			<td>Подтверждение включения двухфакторной аутентификации</td> \
+			<td>Подтверждение включения двухфакторной аутентификации.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/totp remove</td> \
-			<td>Отключение двухфакторной аутентификации</td> \
+			<td>Отключение двухфакторной аутентификации.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/changepassword</td> \
-			<td>Смена пароля</td> \
+			<td>Смена пароля.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/login [пароль]</td> \
-			<td>Вход в аккаунт</td> \
+			<td>Вход в аккаунт.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/logout</td> \
-			<td>Выход из аккаунта</td> \
+			<td>Выход из аккаунта.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/register [пароль] [подтверждение пароля]</td> \
-			<td>Регистрация аккаунта</td> \
+			<td>Регистрация аккаунта.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email show</td> \
-			<td>Показывает привязанный адрес электронной почты</td> \
+			<td>Показывает привязанный адрес электронной почты.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email add [электронная почта] [повтор электронной почты]</td> \
-			<td>Привязывает адрес электронной почты к аккаунту</td> \
+			<td>Привязывает адрес электронной почты к аккаунту.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email change</td> \
-			<td>Смена адреса электронной почты</td> \
+			<td>Смена адреса электронной почты.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email recover</td> \
-			<td>Восстановление пароля с помощью электронной почты</td> \
+			<td>Восстановление пароля с помощью электронной почты.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email code</td> \
-			<td>Отправка кода для восстановления пароля</td> \
+			<td>Отправка кода для восстановления пароля.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/email setpassword</td> \
-			<td>Установка нового пароля после восстановления</td> \
+			<td>Установка нового пароля после восстановления.</td> \
 		</tr> \
 		</table>",
-    "QMan_Commands":"<table id='table'> \
+		
+    "QMan_Commands":"<h1>QMan Commands</h1> \
+		<table id='table'> \
 		<tr class='border_bottom'> \
 			<th onclick='sortTable(0)'>Команда</th> \
-			<th onclick='sortTable(1)'>Краткое описание</th> \
+			<th id='unsortable'>Краткое описание</th> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/rules</td> \
-			<td>Выводит список <a href='#/rules'>правил</a> сервера</td> \
+			<td>Выводит список <a href='#/rules'>правил</a> сервера.</td> \
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>/supporters</td> \
-			<td>Благодарности людям</td> \
+			<td>Благодарности людям.</td> \
+		</tr> \
+		</table>",
+		
+	"Essentials":"<h1>Essentials</h1> \
+		<table id='table'> \
+		<tr class='border_bottom'> \
+			<th onclick='sortTable(0)'>Команда</th> \
+			<th id='unsortable'>Краткое описание</th> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/msg [ник игрока (или несколько ников)] [сообщение]</td> \
+			<td>Личное сообщение игроку.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/motd</td> \
+			<td>Выводит сообщение дня.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/afk</td> \
+			<td>Помечает вас, как игрока, которого нет на месте.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/r</td> \
+			<td>Ответ на последнее личное сообщение.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/spawn</td> \
+			<td>Телепортация на спаун.</td> \
+		</tr> \
+		</table>",
+	
+	"LWC":"<h1>LWC</h1> \
+		<table id='table'> \
+		<tr class='border_bottom'> \
+			<th onclick='sortTable(0)'>Команда</th> \
+			<th id='unsortable'>Краткое описание</th> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cprivate [ники игроков]</td> \
+			<td>Создаёт приватный тип защиты.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cpublic</td> \
+			<td>Создаёт публичный тип защиты.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cpassword [пароль]</td> \
+			<td>Создаёт тип защиты с паролем.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cmodify [ник игрока или тип защиты]</td> \
+			<td>Позволяет дать доступ игроку к вашей защите или изменить тип.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cunlock [пароль]</td> \
+			<td>Открыть сундук, защищённый паролем.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cinfo</td> \
+			<td>Информация о защите.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/cremove</td> \
+			<td>Удаление защиты.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/lwc flag [тип флага] [on/off]</td> \
+			<td>Изменить настройки флагов. Типы флагов: redstone - позволяет проводить редстоун-сигнал; magnet - позволяет заприваченному сундуку притягивать любые предметы, выброшенные рядом; autoclose - автоматическое закрытие дверей через определённое время; hopper - разрешает воронкам помещать и забирать предметы из сундуков; hopperin - разрешает воронкам только помещать предметы; hopperout - разрешает воронкам только забирать предметы.</td> \
 		</tr> \
 		</table>",
     "doggo1":"<img src='https://i.redd.it/fs6z3gbyde241.jpg'></a>",
