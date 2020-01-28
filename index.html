@@ -1,14 +1,27 @@
 <html>
 	<head>
-		<title>QMan's Minecraft server</title>
+		<title id="#title">QMan's Minecraft Server</title>
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="/css/main.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<script type="text/javascript" src="json/strings.js"></script>
+		<script type="text/javascript" src="js/sortabletable.js"></script>
+		<script type="text/javascript" src="js/dynamicpage.js"></script>
 	</head>
-	<body>
-		<a class="link" href="rules">Правила</a>
-		<a class="link" href="commands">Команды</a>
-		<a class="link" href="dynmap">Динамическая карта</a>
-		<a class="link" href="whitelist">Список игроков</a>
-		<a class="link" href="banned">Заблокированные игроки</a>
+    <body onload="main()">
+		<div class="header">
+			<a class="header-links" href="#/rules">Правила</a>
+			<a class="header-links" href="#/whitelist">Список игроков</a>
+			<a class="header-links" href="#/banned">Заблокированные игроки</a>
+			<a class="header-links" id="commandtab">Команды</a>
+			<div id="commandlist"></div>
+			<script src="js/commandlist.js"></script>
+		</div>
+            <!-- Also i made a page changing transition but i deleted this because its looks wierd	-->
+		<div id="viewer">
+			<noscript>
+				<p> Ваш браузер не поддерживает <strong>Javascript</strong>!</p>
+			</noscript>
+		</div>
 	</body>
 </html>
