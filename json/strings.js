@@ -157,6 +157,11 @@ json = [{
 			<td>матвей#2288</td> \
 			<td>01.02.2020</td> \
 		</tr> \
+		<tr class='border_bottom'> \
+			<td>Alpikosik</td> \
+			<td>Alpikosik#8163</td> \
+			<td>01.02.2020</td> \
+		</tr> \
 	</table>",
     
 	"banned":"<h1>Список всех заблокированных игроков</h1> \
