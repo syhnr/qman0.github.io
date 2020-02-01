@@ -36,6 +36,10 @@ th#unsortable {
 	cursor: auto;
 }
 
+th#wide {
+	width: 30%;
+}
+
 table {
 	overflow: hidden;
 	width: 85%;

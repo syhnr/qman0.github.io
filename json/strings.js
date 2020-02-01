@@ -64,129 +64,93 @@ json = [{
 	"whitelist":"<h1>Список всех игроков в текущем белом списке</h1> \
 	<table id='table'> \
 		<tr class='border_bottom'> \
-			<th onclick='sortTable(0)'>Роль</th> \
-			<th onclick='sortTable(1)'>Внутриигровой ник</th> \
-			<th onclick='sortTable(2)'>Discord</th> \
-			<th onclick='sortTable(3)'>Дата добавления</th> \
+			<th onclick='sortTable(0)'>Внутриигровой ник</th> \
+			<th onclick='sortTable(1)'>Discord</th> \
+			<th onclick='sortTable(2)'>Дата добавления</th> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td><span id='А'>Администратор</span></td> \
 			<td>_QMan</td> \
 			<td>QMan#8191</td> \
 			<td>11.12.2019</td> \
 		</tr> <tr class='border_bottom'> \
-			<td><span id='М'>Модератор</span></td> \
-			<td class='angie'>CarelessAngie</td> \
+			<td>CarelessAngie</td> \
 			<td>Angie Aome#4705</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>pruf</td> \
 			<td>pruf#8502</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>SYHNR</td> \
 			<td>YHN#7969</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>CESAAAR</td> \
 			<td>Иностранный шпион Миль Папс#6863</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>papap1</td> \
 			<td>f0r4g3m0n#3714</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Schtil</td> \
 			<td>Schtil#9230</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Jusk</td> \
 			<td>Theoryst [Йоу]#4504</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Liinkarto</td> \
 			<td>Liinkarto#6358</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Vanlige</td> \
 			<td>renicodav#2061</td> \
 			<td>15.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td><span id='М'>Модератор</span></td> \
 			<td>ImrHeadCrabI</td> \
 			<td>HeadCrab#3314</td> \
 			<td>16.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>fredyfos</td> \
 			<td>fredy#5549</td> \
 			<td>18.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>n_altovsky</td> \
 			<td>Nick Altovsky#2956</td> \
 			<td>29.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Psychoman</td> \
 			<td>Psychoman#2404</td> \
 			<td>01.01.2020</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>ArtemM</td> \
 			<td>Artem M#2910</td> \
 			<td>02.01.2020</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>BankRot</td> \
 			<td>BankRot(ru)#3955</td> \
 			<td>02.01.2020</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Игрок</td> \
 			<td>Rad1ubit</td> \
 			<td>Rad1ubit#0211</td> \
 			<td>03.01.2020</td> \
-		</tr> \
-		<tr class='border_bottom'> \
-			<td>Игрок</td> \
-			<td>eltyan</td> \
-			<td>Акридерм#6054</td> \
-			<td>05.01.2020</td> \
-		</tr> \
-		<tr class='border_bottom'> \
-			<td>Игрок</td> \
-			<td>FAILD330</td> \
-			<td>Faild333#2799</td> \
-			<td>08.01.2020</td> \
-		</tr> \
-		<tr class='border_bottom'> \
-			<td>Игрок</td> \
-			<td>_DAD42_</td> \
-			<td>DAD42#6710</td> \
-			<td>08.01.2020</td> \
 		</tr> \
 	</table>",
     
@@ -200,16 +164,30 @@ json = [{
 			<th onclick='sortTable(4)'>Дата снятия блокировки</th> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>GACHIKABRA</td> \
-			<td>18.11.2019</td> \
-			<td>Участник ХС, бан в Discord</td> \
-			<td>CarelessAngie</td> \
+			<td>Tessa</td> \
+			<td>03.11.2019</td> \
+			<td>Игнорирование предупреждений</td> \
+			<td>Vanlige</td> \
 			<td>Никогда</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Mr_Pozitiv_</td> \
+			<td>bruh2</td> \
+			<td>17.11.2019</td> \
+			<td>Фейковый аккаунт</td> \
+			<td>Vanlige</td> \
+			<td>Никогда</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>Popi_Head</td> \
+			<td>17.11.2019</td> \
+			<td>Фейковый аккаунт</td> \
+			<td>Vanlige</td> \
+			<td>Никогда</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>GACHIKABRA</td> \
 			<td>18.11.2019</td> \
-			<td>-</td> \
+			<td>Участник ХС, бан в Discord</td> \
 			<td>CarelessAngie</td> \
 			<td>Никогда</td> \
 		</tr> \
@@ -228,17 +206,10 @@ json = [{
 			<td>Никогда</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>Popi_Head</td> \
-			<td>17.11.2019</td> \
-			<td>Фейковый аккаунт</td> \
-			<td>Vanlige</td> \
-			<td>Никогда</td> \
-		</tr> \
-		<tr class='border_bottom'> \
-			<td>Tessa</td> \
-			<td>03.11.2019</td> \
-			<td>Игнорирование предупреждений</td> \
-			<td>Vanlige</td> \
+			<td>LK1nc</td> \
+			<td>18.11.2019</td> \
+			<td>Наследственная блокировка второго аккаунта</td> \
+			<td>CarelessAngie</td> \
 			<td>Никогда</td> \
 		</tr> \
 		<tr class='border_bottom'> \
@@ -249,22 +220,15 @@ json = [{
 			<td>Никогда</td> \
 		</tr> \
 		<tr class='border_bottom'> \
-			<td>LK1nc</td> \
+			<td>Mr_Pozitiv_</td> \
 			<td>18.11.2019</td> \
-			<td>Наследственная блокировка второго аккаунта</td> \
+			<td>-</td> \
 			<td>CarelessAngie</td> \
-			<td>Никогда</td> \
-		</tr> \
-		<tr class='border_bottom'> \
-			<td>bruh2</td> \
-			<td>17.11.2019</td> \
-			<td>Фейковый аккаунт</td> \
-			<td>Vanlige</td> \
 			<td>Никогда</td> \
 		</tr> \
 	</table>",
     
-	"commandnav":"<a class='header-links' href='#/commands/AuthMe'>AuthMe</a><a class='header-links' href='#/commands/Essentials'>Essentials</a><a class='header-links' href='#/commands/LWC'>LWC</a><a class='header-links' href='#/commands/QMan_Commands'>QMan Commands</a>",
+	"commandnav":"<a class='header-links' href='#/commands/AuthMe'>AuthMe</a><a class='header-links' href='#/commands/Essentials'>Essentials</a><a class='header-links' href='#/commands/LWC'>LWC</a><a class='header-links' href='#/commands/QMan_Commands'>QMan Commands</a><a class='header-links' href='#/commands/Skins_Restorer'>Skins Restorer</a>",
     
 	"AuthMe":"<h1>AuthMe</h1> \
 		<table id='table'> \
@@ -377,7 +341,7 @@ json = [{
 	"LWC":"<h1>LWC</h1> \
 		<table id='table'> \
 		<tr class='border_bottom'> \
-			<th onclick='sortTable(0)'>Команда</th> \
+			<th id='wide' onclick='sortTable(0)'>Команда</th> \
 			<th id='unsortable'>Краткое описание</th> \
 		</tr> \
 		<tr class='border_bottom'> \
@@ -411,6 +375,25 @@ json = [{
 		<tr class='border_bottom'> \
 			<td>/lwc flag [тип флага] [on/off]</td> \
 			<td>Изменить настройки флагов. Типы флагов: redstone - позволяет проводить редстоун-сигнал; magnet - позволяет заприваченному сундуку притягивать любые предметы, выброшенные рядом; autoclose - автоматическое закрытие дверей через определённое время; hopper - разрешает воронкам помещать и забирать предметы из сундуков; hopperin - разрешает воронкам только помещать предметы; hopperout - разрешает воронкам только забирать предметы.</td> \
+		</tr> \
+		</table>",
+	"Skins_Restorer":"<h1>Skins Restorer</h1> \
+		<table id='table'> \
+		<tr class='border_bottom'> \
+			<th id='wide' onclick='sortTable(0)'>Команда</th> \
+			<th id='unsortable'>Краткое описание</th> \
+		</tr> \
+				<tr class='border_bottom'> \
+			<td>/skin set [ник/ссылка]</td> \
+			<td>Установка скина с помощью ника другого игрока или через ссылку.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/skin clear</td> \
+			<td>Удаление текущего скина из базы плагина.</td> \
+		</tr> \
+		<tr class='border_bottom'> \
+			<td>/skin update</td> \
+			<td>Обновляет скин на стороне сервера.</td> \
 		</tr> \
 		</table>",
     "doggo1":"<img src='https://i.redd.it/fs6z3gbyde241.jpg'></a>",
