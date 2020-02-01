@@ -395,9 +395,7 @@ json = [{
 			<td>/skin update</td> \
 			<td>Обновляет скин на стороне сервера.</td> \
 		</tr> \
-		</table>",
-    "doggo1":"<img src='https://i.redd.it/fs6z3gbyde241.jpg'></a>",
-    "doggo2":"<img src='https://pbs.twimg.com/profile_images/958728371311177733/Q4R-9Z_4.jpg'>"
+		</table>"
 }]
 
 //It's just a stringed html
