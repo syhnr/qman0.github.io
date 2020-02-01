@@ -89,7 +89,7 @@ json = [{
 		</tr> \
 		<tr class='border_bottom'> \
 			<td>CESAAAR</td> \
-			<td>Иностранный шпион Миль Папс#6863</td> \
+			<td>R E L A X#6863</td> \
 			<td>14.12.2019</td> \
 		</tr> \
 		<tr class='border_bottom'> \
