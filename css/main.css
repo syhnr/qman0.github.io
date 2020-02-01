@@ -9,6 +9,14 @@ body {
 	font-weight: 400;
 }
 
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 5;
+	color: #2b2b2b;
+}
+
 a:-webkit-any-link {
 	color: white;
 	text-decoration: none;
