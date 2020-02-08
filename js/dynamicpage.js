@@ -10,8 +10,9 @@ function main() {
 		try {
 			tab.classList.add("active"); //try because if you in command list script cant see tab
 		} catch {};
+	} else {
+		window.location.href = "#/rules";
 	}
-
 }
 
 if ("onhashchange" in window)
