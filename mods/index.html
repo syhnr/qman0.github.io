@@ -4,123 +4,19 @@
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="../css/main.css"/>
+		<script>
+				window.onload = function() {
+					const tvalue = ['Название', 'Actually Additions', 'Applied Enegristics 2', 'Baubles', 'BiblioCraft', 'Biomes-O-Plenty', 'Botania', 'Chisel 2', 'CodeChickenCore', 'EnderCore', 'EnderIO', 'Ender Storage', 'Extra Utilities', 'Immersive Engineering', 'Industrial Craft 2', 'Inventory Tweaks', 'Iron Backpacks', 'JourneyMap', 'Mantle', 'NEI Addons', 'NotEnoughItems', 'OpenBlocks', 'OpenModsLib', 'Pam\'s HarvestCraft', 'Storage Drawers', 'Tinker\'s Construct', 'WAILA', 'WAILA Harvestability']
+					, tkey = ['Тип', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод' , 'Библиотека', 'Библиотека' , 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод', 'Библиотека', 'Мод', 'Мод', 'Мод', 'Библиотека', 'Мод', 'Мод', 'Мод', 'Мод', 'Мод'	];
+					for(var i = 0;i < tvalue.length; i ++) {
+						document.getElementById('tbl').innerHTML += `<tr class="border_bottom"><td>${tvalue[i]}</td><td>${tkey[i]}</td></tr>`
+					}
+				}
+		</script>
 	</head>
     <body>
 		<h1>Добро пожаловать на главную страницу сервера с модами</h1>
 		<h2>Список модов</h2>
-		<table id="table">
-			<tr class="border_bottom">
-				<th>Название</th>
-				<th>Тип</th>
-				</tr>
-			<tr class="border_bottom">
-				<td>Actually Additions</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Applied Enegristics 2</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Baubles</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>BiblioCraft</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Biomes-O-Plenty</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Botania</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Chisel 2</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>CodeChickenCore</td>
-				<td>Библиотека</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>EnderCore</td>
-				<td>Библиотека</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>EnderIO</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Ender Storage</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Extra Utilities</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Immersive Engineering</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Industrial Craft 2</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Inventory Tweaks</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Iron Backpacks</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>JourneyMap</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Mantle</td>
-				<td>Библиотека</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>NEI Addons</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>NotEnoughItems</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>OpenBlocks</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>OpenModsLib</td>
-				<td>Библиотека</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Pam's HarvestCraft</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Storage Drawers</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>Tinker's Construct</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>WAILA</td>
-				<td>Мод</td>
-			</tr>
-			<tr class="border_bottom">
-				<td>WAILA Harvestability</td>
-				<td>Мод</td>
-			</tr>
-		</table>
+		<table id="tbl">
 	</body>
 </html>
